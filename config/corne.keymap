@@ -65,9 +65,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp HOME  &kp AMPS      &kp ASTRK       &kp LPAR   &trans          &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT  &tog 1          &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp HOME  &kp PAGE_UP   &kp PAGE_DOWN   &kp END    &studio_unlock  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans        &trans          &trans     &kp SINGLE_QUOTE  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT  &tog 1            &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp HOME  &kp PAGE_UP   &kp PAGE_DOWN   &kp END    &studio_unlock    &trans
                         &trans  &trans  &trans    &trans    &trans        &trans
             >;
         };
